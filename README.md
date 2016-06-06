@@ -1,6 +1,6 @@
 # DotNetWebcharting
 ///////////////////////////////Procedure/////////////////////////////
-CREATE Procedure [dbo].[GetGdp]  
+#CREATE Procedure [dbo].[GetGdp]  
     (  
     @id int=null  
           )  
@@ -10,7 +10,7 @@ CREATE Procedure [dbo].[GetGdp]
     End 
 
 ////////////////////////////////table////////////////////////////
-CREATE TABLE [dbo].[cgdp] (
+#CREATE TABLE [dbo].[cgdp] (
     [Id]      INT          IDENTITY (1, 1) NOT NULL,
     [country] VARCHAR (50) NOT NULL,
     [code]    VARCHAR (3)  NULL,
